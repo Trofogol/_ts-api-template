@@ -1,4 +1,6 @@
-# TypeScript template project
+# API server template project for TypeScript
+
+## Work in progress, the Readme below is a copy form the other template
 
 Level: beginner
 
