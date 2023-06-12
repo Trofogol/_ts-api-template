@@ -1,0 +1,25 @@
+{
+  "name": "api-template",
+  "version": "1.0.0",
+  "description": "a template project for API server. Includes necessary dependencies and code snippets for standard http methods support",
+  "main": "_entrypoint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trofogol/_ts-api-template.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "api",
+    "template"
+  ],
+  "author": "Trofogol",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Trofogol/_ts-api-template/issues"
+  },
+  "homepage": "https://github.com/Trofogol/_ts-api-template#readme"
+}
