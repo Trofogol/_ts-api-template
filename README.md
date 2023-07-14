@@ -1,9 +1,5 @@
 # API server template project for TypeScript
 
-## Work in progress, the Readme below is a copy form the other template
-
-Level: beginner
-
 This is a template file layout for TypeScript API server project. It contains
 prepared config files for typescript, git and Microsoft VS Code editor to
 jumpstart any development. It also has certain modules to make a server work.
@@ -14,7 +10,7 @@ jumpstart any development. It also has certain modules to make a server work.
 ## VS Code extensions
 
 This template contains a list of recommended extensions (and predefined configurations) for VS Code editor. They should be installed manually, by
-checking `Recommended` section of `Extensions` tab. Not all suggested extensions will be the ones recommended for this project, you can refer to
+checking `Recommended` section of `Extensions` tab. Not all suggested extensions will be the ones recommended for this project by default, you can refer to
 `.vscode\extensions.json` file.
 
 ## Build
@@ -42,13 +38,20 @@ npm install -g typescript
 
 ### Compile
 
-This will compile (translate to JavaScript) a whole project
+Firstly, get all dependencies for the project
+
+```
+npm install
+```
+
+Then compile (translate to JavaScript) the project
 
 ```
 tsc
 ```
 
-The JavaScript files will appear in `dist` directory
+The JavaScript files will appear in `dist` directory (can be overriden in 
+`tsconfig.json`)
 
 ## Run
 
