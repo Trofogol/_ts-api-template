@@ -50,7 +50,7 @@ Then compile (translate to JavaScript) the project
 tsc
 ```
 
-The JavaScript files will appear in `dist` directory (can be overriden in 
+The JavaScript files will appear in `dist` directory (can be overriden in
 `tsconfig.json`)
 
 ## Run
@@ -65,7 +65,9 @@ You can rename your main file as you please, just make sure you are working with
 ## Test
 
 For a fast test, you can simply visit `localhost:3000` using your browser. The
-expected response is JSON formatted data
+expected response is JSON formatted data.
+
+For testing non-GET requests, you will need to use a dedicated tool, like `curl`
 
 ## Edit
 
